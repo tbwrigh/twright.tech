@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Tyler Wright</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <style>
       @import url('https://fonts.google.com/specimen/Mulish?category=Sans+Serif&subset=latin&noto.script=Latn');
       body {
@@ -61,6 +62,31 @@
         place-items: center;
         height: 100vh;
       }
+      footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        font-size: 0.75em;
+        color: #aaa;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5em;
+      }
+
+      .icons a {
+        margin: 0 0.5em;
+        color: #fff;
+        font-size: 2em;
+      }
+
+      .icons a:hover {
+        color: #ccc;
+      }
     </style>
   </head>
   <body>
@@ -68,7 +94,13 @@
       <div>
         <h1>Hi, I'm Tyler Wright</h1>
         <h2>Student • Developer • Researcher</h2>
+        <div class="icons">
+          <a href="https://github.com/tbwrigh"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/tyler-wright96"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:contact@twright.tech"><i class="far fa-envelope"></i></a>
+        </div>    
       </div>
     </div>
+    <footer>&copy; 2023 Tyler Wright, All Rights Reserved</footer>
   </body>
 </html>
