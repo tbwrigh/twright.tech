@@ -4,112 +4,33 @@
     <meta charset="utf-8">
     <title>Tyler Wright</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <style>
-      @import url('https://fonts.google.com/specimen/Mulish?category=Sans+Serif&subset=latin&noto.script=Latn');
-      body {
-        background-image: url("scaled_background.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        backdrop-filter: blur(3px); 
-        color: white;
-      }
-
-      body::before {
-        content: "";
-        display: block;
-        position: absolute; /* Set position absolute to cover the entire body element */
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black overlay */
-        z-index: -1; /* Set a negative z-index to keep the overlay behind the body content */
-      }
-
-      h1 {
-        font-family: 'Mulish', sans-serif;
-        text-align: center;
-        color: white;
-        font-size: 5em;
-        margin: 0.25em;
-      }
-
-      h1::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -5px;
-        width: 0;
-        height: 2px;
-        background-color: black;
-        transition: width 0.5s ease-in-out;
-      }
-
-      h2 {
-        margin: 0.25em;
-        font-size: 2em;
-        text-align: center;
-      }
-
-      div#page {
-        display: grid;
-        place-items: center;
-        height: 100vh;
-      }
-      footer {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 10px;
-        font-size: 0.75em;
-        color: #aaa;
-      }
-
-      .icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1.5em;
-      }
-
-      .icons a {
-        margin: 0 0.5em;
-        color: #fff;
-        font-size: 2em;
-      }
-
-      .icons a:hover {
-        color: #ccc;
-      }
-
-      @media screen and (max-width: 992px) {
-        h2 {
-          font-size: 3em;
-        }
-        a {
-          font-size: 4em !important;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="page">
-      <div>
-        <h1>Hi, I'm Tyler Wright</h1>
-        <h2>Student • Developer • Researcher</h2>
-        <div class="icons">
-          <a href="https://github.com/tbwrigh"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/tyler-wright96"><i class="fab fa-linkedin"></i></a>
-          <a href="mailto:contact@twright.tech"><i class="far fa-envelope"></i></a>
-        </div>    
+    <div id="pagecontainer">
+      <div id="page">
+        <div>
+          <h1>Hi, I'm Tyler Wright</h1>
+          <h2>Student • Developer • Researcher</h2>
+          <div class="icons">
+            <a href="https://github.com/tbwrigh"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tyler-wright96"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:contact@twright.tech"><i class="far fa-envelope"></i></a>
+          </div>    
+        </div>
       </div>
+      <div id="page">
+        <div>
+          <h1 id="section-title">About Me</h1>
+          <p id="about">I am a computer science student at Colorado School of Mines. I am the Treasurer of ACM at Mines, which is a student
+            organization that works on open source projects and hosts tech talks with industry professionals. When I'm not studying computer 
+            science, my other passions include photography, cooking, and music. 
+          </p>
+        </div>
+      </div>
+      <div id="scrollbar"></div>
     </div>
     <footer>&copy; 2023 Tyler Wright, All Rights Reserved</footer>
+    <script src="scroll.js"></script>
   </body>
 </html>
