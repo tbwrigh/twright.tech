@@ -1,0 +1,1 @@
+document.getElementById("email-link").setAttribute("href", atob('bWFpbHRvOmNvbnRhY3RAdHdyaWdodC50ZWNo'));
