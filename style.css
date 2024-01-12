@@ -106,6 +106,9 @@ footer {
   #pagecontainer {
     scroll-snap-type: none !important;
   }
+  #page {
+    height: 50vh !important;
+  }
   p {
     font-size: 2.5em !important;
   }
