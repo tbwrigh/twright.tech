@@ -6,6 +6,9 @@ const pageContainer = document.getElementById("pagecontainer");
 for (let i = 0; i < pages.length; i++) {
   const dot = document.createElement('div');
   dot.classList.add('dot');
+  dot.onclick = () => {
+    pages[i].scrollIntoView({ behavior: 'smooth' });
+  };
   dotsContainer.appendChild(dot);
 }
 
