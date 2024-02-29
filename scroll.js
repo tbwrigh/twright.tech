@@ -6,10 +6,18 @@ const pageContainer = document.getElementById("pagecontainer");
 for (let i = 0; i < pages.length; i++) {
   const dot = document.createElement('div');
   dot.classList.add('dot');
+  dot.classList.add('tooltip');
   dot.onclick = () => {
     pages[i].scrollIntoView({ behavior: 'smooth' });
   };
   dotsContainer.appendChild(dot);
+
+  if (pages[i].getAttribute('data-pagename') !== null) {
+    const tooltip = document.createElement('span');
+    tooltip.classList.add('tooltiptext');
+    tooltip.textContent = pages[i].getAttribute('data-pagename');
+    dot.appendChild(tooltip);  
+  }
 }
 
 const dots = document.querySelectorAll('.dot');
@@ -24,9 +32,11 @@ let onscroll = () => {
         if (dotIndex === index) {
           dot.classList.add('active');
           dot.style.transform = 'scale(1.5)'; // increase dot size
+          dot.childNodes[0].classList.add('tooltip-hidden')
         } else {
           dot.classList.remove('active');
           dot.style.transform = 'scale(1)'; // reset dot size
+          dot.childNodes[0].classList.remove('tooltip-hidden')
         }
       });
     }

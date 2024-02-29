@@ -266,3 +266,25 @@ p {
   cursor: pointer;
   color: var(--icon-hover-color);
 }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  color: #fff;
+  text-align: center;
+
+  margin-right: 10px !important;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+}
+
+.tooltip:hover .tooltip-hidden  {
+  visibility: hidden !important;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
