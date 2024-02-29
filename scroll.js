@@ -36,6 +36,9 @@ let onscroll = () => {
 pageContainer.addEventListener('scroll', onscroll);
 onscroll();
 
+window.blur();
+window.focus();
+
 function getCurrentPageIndex() {
   let pageIndex = 0;
   for (let i = 0; i < dots.length; i++) { 
@@ -56,3 +59,5 @@ document.onkeydown = function (e) {
     pages[Math.min(getCurrentPageIndex() + 1, pages.length - 1)].scrollIntoView({ behavior: 'smooth' });
   }
 };
+
+
