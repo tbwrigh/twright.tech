@@ -269,7 +269,7 @@ p {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  color: #fff;
+  color: var(--text-color);
   text-align: center;
 
   margin-right: 10px !important;
