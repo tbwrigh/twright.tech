@@ -1,0 +1,21 @@
+# Hugo build output
+/public/ 🚫📂
+/resources/_gen/ 🚫⚙️
+
+# Hugo server cache
+/.hugo_build.lock 🔒🛠️
+
+# Dependency directories
+/node_modules/ 📦🧰
+
+# OS-specific files
+.DS_Store 🍏🧹
+Thumbs.db 🪟📷
+
+# IDE/editor settings
+.vscode/ 🧠💻
+.idea/ 💡🛠️
+
+# Optional: config/user files
+.env 🧪🔐
+*.log 📜🔥
