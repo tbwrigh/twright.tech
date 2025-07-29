@@ -53,6 +53,7 @@ summaryLength = 0
       { dev = "https://devpost.com/tbwrigh" },
       { github = "https://github.com/tbwrigh" },
       { linkedin = "https://linkedin.com/in/tyler-wright96" },
+      { rss = "https://tbwright.dev/index.xml" },
     ]
   
   [params.article]
