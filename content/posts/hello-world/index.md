@@ -14,6 +14,8 @@ Before we go any further, I want to address AI and the use of AI in writing. I t
 
 ## So What's Worth Reading Here?
 
+### Technical Topics
+
 So if you didn't already guess, I intend to write about interesting computer science topics. While code will be a primary focus when talking Computer Science, I also intend to talk about my time in college, hackathons, conferences, and my career. Similarly, I also plan on writing about math topics I find interesting. Particularly, I will likely write about Statistics, Probability, Linear Algebra and Computational Methods. 
 
 This first post is probably a pretty boring read, so let me spice it up with a random typescript factoid before continuing to talk about my vision for this blog.
@@ -36,6 +38,8 @@ This first post is probably a pretty boring read, so let me spice it up with a r
 > Now, is this super practical in the middle of your small React App? Probably not, but it is a super useful tool when building libraries, or other sensitive projects, where you want strict type validation. 
 >
 > This only scratches the surface of the Typescript type system. The type system is actually Turing-complete, and there have been numerous projects building out incredible things with just the type system. In a future blog post, I intend to write a lot more about the Typescript type system.
+
+### Non-technical Topics
 
 On a less nerdy note, I intend write about life. Some of my first blog posts will probably will cover some of my travels through, Europe, Asia, and Oceania. I will also probably have some other variety posts talking about my love of food, music, anime, and more. 
 
