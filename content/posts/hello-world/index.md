@@ -49,7 +49,7 @@ On a serious note, I have struggled for years with Mental Health issues, and whi
 
 ## My Friends' Blogs
 
-*This is not an exhaustive list, but some of the blogs that inspired me to start my own.*
+*This is not an exhaustive list, rather some of the blogs that inspired me to start my own.*
 
 - [Sumner Evans](https://sumnerevans.com/)
 - [Byron Sharman](https://byronsharman.com/)
