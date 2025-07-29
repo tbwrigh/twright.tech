@@ -9,8 +9,8 @@ summaryLength = 0
 [pagination]
   pagerSize = 10
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+# [outputs]
+#   home = ["HTML", "RSS", "JSON"]
 
 [privacy]
   [privacy.vimeo]
@@ -54,14 +54,20 @@ summaryLength = 0
       { github = "https://github.com/tbwrigh" },
       { linkedin = "https://linkedin.com/in/tyler-wright96" },
     ]
-
-
+  
+  [params.article]
+    showAuthor = true
+    showDate = true
+    showReadingTime = true
+    showShareButtons = true
+    showTableOfContents = true
+    enableCodeCopy = true
 
 [menus]
   [[menus.main]]
-  name = "Posts"
-  url = "/posts"
-  weight = 10
+    name = "Posts"
+    url = "/posts"
+    weight = 10
 
   # [[menus.main]]
   # name = "Categories"
@@ -74,8 +80,9 @@ summaryLength = 0
   # weight = 30
 
   [[menus.main]]
-  identifier = "search"
-  weight = 99
+    identifier = "search"
+    weight = 99
+
   [menus.main.params]
     action = "search"
 
