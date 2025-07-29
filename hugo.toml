@@ -59,19 +59,19 @@ summaryLength = 0
 
 [menus]
   [[menus.main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Posts"
+  url = "/posts"
   weight = 10
 
-  [[menus.main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+  # [[menus.main]]
+  # name = "Categories"
+  # pageRef = "categories"
+  # weight = 20
 
-  [[menus.main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+  # [[menus.main]]
+  # name = "Tags"
+  # pageRef = "tags"
+  # weight = 30
 
   [[menus.main]]
   identifier = "search"
@@ -82,6 +82,7 @@ summaryLength = 0
   [[menus.main]]
   identifier = "locale"
   weight = 100
+
   [main.params]
     action = "locale"
 
