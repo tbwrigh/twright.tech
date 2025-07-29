@@ -45,7 +45,7 @@ This first post is probably a pretty boring read, so let me spice it up with a r
 
 On a less nerdy note, I intend write about life. Some of my first blogposts will probably will cover some of my travels through, Europe, Asia, and Oceania. I will also probably have some other variety posts talking about my love of food, music, anime, and more. 
 
-On a serious note, I have struggled for years with Mental Health issues, and while I do not intend on writing about this immediately, it is something I intend to address in the future. Until I write about this, if you are feeling depressed or suicidal there is hope and help, and the world is better with you in it. If you are in urgent need of help, please call 988, it is 24/7 and can help you. 
+On a serious note, I have struggled for years with Mental Health issues, and while I do not intend on writing about this immediately, it is something I intend to address in the future. Until I write about this, if you are feeling depressed or suicidal there is hope and help, and the world is better with you in it. If you are in urgent need of help, please call 988, it is available 24/7 and can help you in crisis situations. 
 
 ## My Friends' Blogs
 
