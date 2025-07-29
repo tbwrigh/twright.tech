@@ -20,7 +20,7 @@ Before we go any further, I want to address AI and the use of AI in writing. I t
 
 So if you didn't already guess, I intend to write about interesting computer science topics. While code will be a primary focus when talking Computer Science, I also intend to talk about my time in college, hackathons, conferences, and my career. Similarly, I also plan on writing about math topics I find interesting. Particularly, I will likely write about Statistics, Probability, Linear Algebra and Computational Methods. 
 
-This first post is probably a pretty boring read, so let me spice it up with a random typescript factoid before continuing to talk about my vision for this blog.
+This first post is probably a pretty boring read, so let me spice it up with a random TypeScript factoid before continuing to talk about my vision for this blog.
 
 > Did you know you can make templated strings as a type. For example, suppose you want to make a type representing a hashtag string, you could do:
 > ```ts
@@ -39,17 +39,17 @@ This first post is probably a pretty boring read, so let me spice it up with a r
 > ```
 > Now, is this super practical in the middle of your small React App? Probably not, but it is a super useful tool when building libraries, or other sensitive projects, where you want strict type validation. 
 >
-> This only scratches the surface of the Typescript type system. The type system is actually Turing-complete, and there have been numerous projects building out incredible things with just the type system. In a future blog post, I intend to write a lot more about the Typescript type system.
+> This only scratches the surface of the TypeScript type system. The type system is actually Turing-complete, and there have been numerous projects building out incredible things with just the type system. In a future blog post, I intend to write a lot more about the TypeScript type system.
 
 ### Non-technical Topics
 
-On a less nerdy note, I intend write about life. Some of my first blog posts will probably will cover some of my travels through, Europe, Asia, and Oceania. I will also probably have some other variety posts talking about my love of food, music, anime, and more. 
+On a less nerdy note, I intend write about life. Some of my first blogposts will probably will cover some of my travels through, Europe, Asia, and Oceania. I will also probably have some other variety posts talking about my love of food, music, anime, and more. 
 
 On a serious note, I have struggled for years with Mental Health issues, and while I do not intend on writing about this immediately, it is something I intend to address in the future. Until I write about this, if you are feeling depressed or suicidal there is hope and help, and the world is better with you in it. If you are in urgent need of help, please call 988, it is 24/7 and can help you. 
 
 ## My Friends' Blogs
 
-*This is not an exhaustive list, but some of the blogs tht inspired me to start my own.*
+*This is not an exhaustive list, but some of the blogs that inspired me to start my own.*
 
 - [Sumner Evans](https://sumnerevans.com/)
 - [Byron Sharman](https://byronsharman.com/)
